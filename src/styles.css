@@ -1,3 +1,67 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 body {
     background-color: burlywood;
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template: 100px 1fr 100px / 1000px;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    gap: 10px;
+}
+
+header {
+    background-color: #3a4330;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+button {
+    width: 150px;
+    font-size: 16px;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.content {
+    background-color: blanchedalmond;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    border-radius: 5px;
+    padding: 15px 100px;
+}
+
+img {
+    width: 700px;
+    margin: 50px;
+}
+
+footer {
+    height: 100%;
+    background-color: #3a4330;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
